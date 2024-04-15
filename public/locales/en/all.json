@@ -6,7 +6,14 @@
       "home": "Home",
       "about": "About",
       "contact_us": "Contact us",
-      "news": "News"
+      "news": "News",
+      "tourguide": "Tourguide",
+      "culinary": "Culinary",
+      "destination": "Destination",
+      "70_percent": "70%",
+      "more": "More",
+      "recommended": "Recommended",
+      "popular": "Popular"
     }
   },
   "example": {
