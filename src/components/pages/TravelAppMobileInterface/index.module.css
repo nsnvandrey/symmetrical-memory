@@ -1,0 +1,71 @@
+.pageContainer {
+  font-family: 'Arial', sans-serif;
+  background-color: #F9F9F9;
+  overflow: hidden;
+  max-width: 430px;
+  margin: auto;
+  border-radius: 26px;
+}
+
+.header {
+  background-color: #57B4F2;
+  border-bottom-left-radius: 26px;
+  border-bottom-right-radius: 26px;
+  padding: 16px;
+}
+
+.discountBanner {
+  background-color: #FF6B6B;
+  border-radius: 20px;
+  margin: -24px 16px 16px;
+  padding: 16px;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.discountText {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.discountPercentage {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.dots {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.categoryContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 16px 16px;
+}
+
+.recommendedSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.recommendedLabel {
+  font-weight: bold;
+  color: #FF6B6B;
+}
+
+.popularLabel {
+  color: #C4C4C4;
+}
+
+.destinationCards {
+  display: flex;
+  overflow-x: auto;
+  padding: 0 16px;
+}
+
+/* Additional responsive styles can be added here if needed */

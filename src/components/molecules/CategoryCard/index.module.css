@@ -1,0 +1,14 @@
+.categoryCard {
+  text-align: center;
+  border-radius: 50%;
+  padding: 16px;
+  margin-bottom: 8px;
+}
+
+.icon {
+  /* Additional styling can be added here if needed */
+}
+
+.label {
+  /* Additional styling can be added here if needed */
+}

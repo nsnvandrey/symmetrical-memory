@@ -1,0 +1,12 @@
+.iconText {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.text {
+  /* Additional styling can be added here if needed */
+}

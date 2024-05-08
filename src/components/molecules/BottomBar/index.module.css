@@ -1,0 +1,12 @@
+.bottomBar {
+  background-color: #FFFFFF;
+  border-top-left-radius: 26px;
+  border-top-right-radius: 26px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon {
+  /* Additional styling can be added here if needed */
+}
