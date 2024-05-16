@@ -23,5 +23,38 @@
   "500": {
     "title": "System Error",
     "description": "Description about system error"
+  },
+  "TravelDealsPage": {
+    "search": "Search",
+    "find_things_to_do": "Find things to do",
+    "magnifying_glass": "Magnifying glass",
+    "get_discount_up_to": "Get discount up to",
+    "happy_couple": "Happy couple",
+    "hotel": "Hotel",
+    "recommended": "Recommended",
+    "home": "Home",
+    "flight": "Flight",
+    "car_rental": "Car Rental",
+    "experiences": "Experiences",
+    "restaurants": "Restaurants",
+    "more": "More",
+    "popular": "Popular",
+    "all": "All",
+    "adventure": "Adventure",
+    "beach": "Beach",
+    "culture": "Culture",
+    "luxury": "Luxury",
+    "romance": "Romance",
+    "wildlife": "Wildlife",
+    "footer_logo_alt": "Footer logo",
+    "header_logo_alt": "Header logo",
+    "button_icon_alt": "Button icon",
+    "icon_alt": "Icon",
+    "navigation_home": "Navigation home",
+    "navigation_flight": "Navigation flight",
+    "navigation_car_rental": "Navigation car rental",
+    "navigation_experiences": "Navigation experiences",
+    "navigation_restaurants": "Navigation restaurants",
+    "navigation_more": "Navigation more"
   }
 }

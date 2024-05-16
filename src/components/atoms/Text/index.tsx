@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'next-i18next'
 
 export enum TextTypeEnum {
   Link = 'Link',
@@ -159,6 +160,7 @@ const ComponentMapping = {
 }
 
 export type TextProps = BaseTextProps &
+  // Customization for text component with translation support
   BaseLinkProps &
   BaseH1Props &
   BaseH2Props &
@@ -174,6 +176,7 @@ export type TextProps = BaseTextProps &
   BaseDelProps &
   BasePreProps &
   BaseCodeProps &
+  // Customization for text component with translation support
   BaseBlockquoteProps &
   BaseFigcaptionProps &
   BaseCiteProps & {
@@ -182,6 +185,7 @@ export type TextProps = BaseTextProps &
   }
 
 const Text = (props: TextProps) => {
+  const { t } = useTranslation()
   const { textType = TextTypeEnum.Text, className, ...rest } = props
 
   const Component = ComponentMapping[textType]
@@ -189,4 +193,5 @@ const Text = (props: TextProps) => {
   return <Component {...rest} className={className} />
 }
 
+// Exporting the customized Text component with translation support
 export { Text }

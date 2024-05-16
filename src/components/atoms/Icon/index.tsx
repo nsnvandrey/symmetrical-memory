@@ -1,5 +1,6 @@
 import React from 'react'
 import dynamic from 'next/dynamic'
+import Image from 'next/image'
 import { IconBaseProps, IconType } from 'react-icons/lib'
 
 export enum IconSet {
@@ -58,6 +59,7 @@ export const Icon = (props: IconProps) => {
   const { className, style, iconName, color, size } = props
   return (
     <span
+      // Customization for icon with image support
       style={{ display: 'inline-block', verticalAlign: 'middle', ...style }}
       className={className}
     >
@@ -65,6 +67,12 @@ export const Icon = (props: IconProps) => {
         color,
         size,
       })}
+      {props.src && (
+        <Image
+          src={props.src}
+          alt={props.alt || 'Icon'}
+        />
+      )}
     </span>
   )
 }

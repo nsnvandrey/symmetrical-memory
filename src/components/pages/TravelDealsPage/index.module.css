@@ -1,0 +1,179 @@
+.pageContainer {
+  box-shadow: 0 0 0 8px rgba(255, 255, 255, 1);
+  border-radius: 24px;
+  overflow: hidden;
+  width: 414px;
+  height: 896px;
+  margin: auto;
+}
+
+.backgroundColor {
+  background-color: rgba(250, 247, 244, 1);
+  width: 414px;
+  height: 896px;
+}
+
+.searchContainer {
+  border-radius: 14px;
+  overflow: hidden;
+  width: 350px;
+  height: 48px;
+  margin: 40px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchInputContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 48px;
+  width: 278px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 1);
+  border-radius: 14px;
+  padding: 8px 16px;
+}
+
+.searchIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.searchText {
+  color: rgba(94, 94, 94, 1);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.magnifyingGlassContainer {
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  width: 48px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 1);
+  border-radius: 14px;
+}
+
+.discountCard {
+  background-color: rgba(203, 101, 101, 0.64);
+  border-radius: 16px;
+  width: 350px;
+  height: 160px;
+  margin: 24px auto 0 auto;
+  position: relative;
+}
+
+.discountCardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  padding-left: 24px;
+  padding-top: 16px;
+}
+
+.discountText {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.discountPercentage {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 55px;
+}
+
+.happyCoupleImage {
+  width: 245px;
+  height: 216px;
+  position: absolute;
+  right: 0;
+  top: -2px;
+}
+
+.categoryButtonsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  width: 350px;
+  height: 159.6761932373047px;
+  margin: 24px auto 0 auto;
+  flex-wrap: wrap;
+}
+
+.categoryButtonBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.categoryButton {
+  width: 48px;
+  height: 48px;
+  background-color: rgba(255, 244, 238, 1);
+  border-radius: 8px;
+}
+
+.categoryIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.categoryText {
+  color: rgba(81, 81, 81, 1);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.tabsContainer {
+  width: 350px;
+  height: 247px;
+  margin: 24px auto 0 auto;
+}
+
+.tabTitle {
+  color: rgba(51, 51, 51, 1);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.bottomNavigationBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 16px 42px;
+  width: 414px;
+  position: absolute;
+  bottom: 0;
+}
+
+.navigationButtonBlock {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: rgba(224, 241, 245, 0.6);
+  border-radius: 6px;
+  padding: 6px 12px;
+}
+
+.navigationIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.navigationText {
+  color: rgba(66, 168, 195, 1);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
