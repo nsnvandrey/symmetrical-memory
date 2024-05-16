@@ -1,5 +1,5 @@
-import Image from 'next/image'
 import clsx from 'clsx'
+import { useTranslation } from 'next-i18next'
 
 import DefaultFooterMenu from '@components/molecules/DefaultFooterMenu'
 import { DefaultPageProps } from '@interfaces/page'
@@ -10,13 +10,15 @@ export type DefaultFooterProps = DefaultPageProps & {
   className?: string
 }
 
+const { t } = useTranslation()
+
 function DefaultFooter(props: DefaultFooterProps): JSX.Element {
   return (
     <div className={clsx(styles.footer, props.className)}>
       <div className={styles.footer_container}>
         <div className={styles.footer_logo_container}>
           <div className={styles.footer_logo_inner}>
-            <Image
+            <img // Changed to img tag for consistency
               className={styles.footer_logo_image}
               width="100"
               height="0"
@@ -24,7 +26,7 @@ function DefaultFooter(props: DefaultFooterProps): JSX.Element {
               alt="footer_molecule_image_0"
             />
           </div>
-          <DefaultFooterMenu />
+          <DefaultFooterMenu /> // Placeholder for actual footer menu
         </div>
       </div>
     </div>
