@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import clsx from 'clsx'
+import { useTranslation } from 'next-i18next'
 
 import DefaultFooterMenu from '@components/molecules/DefaultFooterMenu'
 import { DefaultPageProps } from '@interfaces/page'
@@ -11,6 +12,7 @@ export type DefaultFooterProps = DefaultPageProps & {
 }
 
 function DefaultFooter(props: DefaultFooterProps): JSX.Element {
+  const { t } = useTranslation();
   return (
     <div className={clsx(styles.footer, props.className)}>
       <div className={styles.footer_container}>
@@ -18,10 +20,10 @@ function DefaultFooter(props: DefaultFooterProps): JSX.Element {
           <div className={styles.footer_logo_inner}>
             <Image
               className={styles.footer_logo_image}
-              width="100"
+              width={100}
               height="0"
               src="https://studio.jitera.app/jitera-white-logo.svg"
-              alt="footer_molecule_image_0"
+              alt={t('default_footer.logo_alt')}
             />
           </div>
           <DefaultFooterMenu />
