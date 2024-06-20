@@ -23,5 +23,41 @@
   "500": {
     "title": "System Error",
     "description": "Description about system error"
+  },
+  "search_input": {
+    "placeholder": "Find things to do",
+    "icon_alt": "Search"
+  },
+  "button": {
+    "link_tag": "Link"
+  },
+  "default_footer": {
+    "logo_alt": "Jitera"
+  },
+  "TravelDealsPage": {
+    "find_things_to_do": "Find things to do",
+    "search_icon_alt": "Search",
+    "get_discount_up_to": "Get Discount up to",
+    "discount_value": "70%",
+    "discount_image_alt": "Discount",
+    "recommended": "Recommended",
+    "popular": "Popular"
+  },
+  "BottomBar": {
+    "home": "Home",
+    "search": "Search",
+    "favorites": "Favorites",
+    "profile": "Profile"
+  },
+  "TravelDealsPage": {
+    "service_categories": "Service Categories",
+    "recommended_destinations": "Recommended Destinations",
+    "popular_destinations": "Popular Destinations"
+  },
+  "shared_components": {
+    "search_input": {
+      "placeholder": "Search...",
+      "icon_alt": "Search icon"
+    }
   }
 }
